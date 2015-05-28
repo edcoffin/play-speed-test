@@ -1,6 +1,5 @@
 import play.Play.autoImport._
 
-
 name := """play-scala"""
 
 version := "1.0-SNAPSHOT"
@@ -14,5 +13,6 @@ libraryDependencies ++= Seq(
   anorm,
   cache,
   ws,
-  filters
+  filters,
+  "com.newrelic.agent.java" % "newrelic-agent" % "3.7.0"
 )
