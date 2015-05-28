@@ -6,7 +6,6 @@ import play.api.mvc._
 object Application extends Controller {
 
   def index = Action {
-    Thread.sleep(20)
     Ok(
       """
         |{
