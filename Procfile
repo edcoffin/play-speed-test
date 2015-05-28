@@ -1,1 +1,0 @@
-web: target/universal/stage/bin/play-scala -J-javaagent:target/universal/stage/lib/com.newrelic.agent.java.newrelic-api-3.16.1.jar -Dnewrelic.enable.java.8 -J-Dnewrelic.config.file=conf/newrelic.yml
