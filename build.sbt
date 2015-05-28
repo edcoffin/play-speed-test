@@ -1,3 +1,6 @@
+import play.Play.autoImport._
+
+
 name := """play-scala"""
 
 version := "1.0-SNAPSHOT"
@@ -10,5 +13,6 @@ libraryDependencies ++= Seq(
   jdbc,
   anorm,
   cache,
-  ws
+  ws,
+  filters
 )
