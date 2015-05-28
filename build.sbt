@@ -14,5 +14,5 @@ libraryDependencies ++= Seq(
   cache,
   ws,
   filters,
-  "com.newrelic.agent.java" % "newrelic-agent" % "3.7.0"
+  "com.newrelic.agent.java" % "newrelic-agent" % "3.10.0"
 )
