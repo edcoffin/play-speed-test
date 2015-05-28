@@ -33,4 +33,12 @@ object Application extends Controller {
       """.stripMargin).as("application/json")
   }
 
+  def loaderToken = Action {
+    Ok("loaderio-e90a393d88d62be27033eddcb99af381")
+  }
+
+  def getPage = Action {
+    Ok(views.html.index())
+  }
+
 }
